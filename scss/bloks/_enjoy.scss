@@ -1,0 +1,47 @@
+.enjoy {
+    margin-top: 160px;
+}
+
+.enjoy__line {
+    position: relative;
+    display: block;
+    border: 10px solid #E5ECF4;
+    top: 60px;
+    left: -165px
+}
+
+.enjoy__list {
+    @include position;
+    justify-content: space-between;
+    @include unsed-list;
+}
+
+.enjoy__item {
+    position: relative;
+    padding-top: 136px;
+}
+
+.enjoy__item::before {
+    position: absolute;
+    background-image: url("../../images/phone_icon.svg");
+    width: 96px;
+    height: 96px;
+    background-position: top center;
+    top: 0;
+    content: '';
+}
+
+.enjoy__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.enjoy {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}

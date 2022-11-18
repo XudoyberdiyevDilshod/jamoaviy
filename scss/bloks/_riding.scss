@@ -1,0 +1,46 @@
+.riding{
+    margin-top: 200px;
+}
+.riding__inner{
+    position: relative;
+    padding: 80px 0px;
+    background-image: url("../../images/boyfriend_img.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right -350px bottom;
+}
+.riding__content{
+    width: 100%;
+    width:450px ;
+}
+.riding__title{
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+
+}
+.riding__text{
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+
+color: #939CAA;
+}
+.riding__btn{
+    padding: 14px 39px;
+    background: #FCB72B;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    border: transparent;
+}

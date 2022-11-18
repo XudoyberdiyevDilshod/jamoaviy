@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Bold.woff2"), url("../fonts/SpaceMono-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Regular.woff2"), url("../fonts/SpaceMono-Regular.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 html {
   height: 100%;
   scroll-behavior: smooth;
@@ -13,6 +27,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Space Mono", sans-serif;
 }
 
 img {
@@ -27,7 +42,231 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.site-header {
+  padding: 22px 0px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-left: 58px;
+}
+
+.nav__item + .nav__item {
+  margin-left: 32px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.header__btn {
+  margin-left: auto;
+  padding: 14px 39px;
+  background: #FCB72B;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  border: transparent;
+}
+
+.hero {
+  background-image: url("../../images/hero_bg.webp");
+  background-size: 1440px 650px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.hero__inner::before {
+  position: absolute;
+  background-image: url("../../images/hero_arrow.svg");
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 138px;
+  bottom: 157px;
+  right: 100px;
+  content: "";
+}
+
+.hero__inner::after {
+  position: absolute;
+  background-image: url("../../images/hero_circle.svg");
+  background-repeat: no-repeat;
+  width: 234px;
+  height: 63px;
+  bottom: 155px;
+  right: -210px;
+  content: "";
+}
+
+.hero__inner {
+  position: relative;
+  padding: 153px 0px;
+}
+
+.hero__content {
+  width: 100%;
+  max-width: 520px;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.hero__text {
+  position: relative;
+  margin: 0;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.hero__text::before {
+  position: absolute;
+  background-image: url("../../images/hero_path.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 50px;
+  left: -215px;
+  width: 180px;
+  height: 20px;
+  content: "";
+}
+
+.hero__btn {
+  padding: 14px 39px;
+  background: #FCB72B;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  border: transparent;
+}
+
+.enjoy {
+  margin-top: 160px;
+}
+
+.enjoy__line {
+  position: relative;
+  display: block;
+  border: 10px solid #E5ECF4;
+  top: 60px;
+  left: -165px;
+}
+
+.enjoy__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.enjoy__item {
+  position: relative;
+  padding-top: 136px;
+}
+
+.enjoy__item::before {
+  position: absolute;
+  background-image: url("../../images/phone_icon.svg");
+  width: 96px;
+  height: 96px;
+  background-position: top center;
+  top: 0;
+  content: "";
+}
+
+.enjoy__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.enjoy {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.riding {
+  margin-top: 200px;
+}
+
+.riding__inner {
+  position: relative;
+  padding: 80px 0px;
+  background-image: url("../../images/boyfriend_img.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right -350px bottom;
+}
+
+.riding__content {
+  width: 100%;
+  width: 450px;
+}
+
+.riding__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.riding__text {
+  margin-bottom: 40px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #939CAA;
+}
+
+.riding__btn {
+  padding: 14px 39px;
+  background: #FCB72B;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  border: transparent;
 }/*# sourceMappingURL=main.css.map */

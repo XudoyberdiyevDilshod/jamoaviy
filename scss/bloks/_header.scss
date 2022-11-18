@@ -1,0 +1,32 @@
+.site-header{
+    padding: 22px 0px;
+}
+.header__inner{
+    @include position;
+}
+.nav__list{
+    @include position;
+    @include unsed-list;
+    margin-left: 58px;
+}
+.nav__item+ .nav__item{
+    margin-left: 32px;
+}
+.nav__link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+.header__btn{
+    margin-left: auto;
+    padding: 14px 39px;
+    background: #FCB72B;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    border: transparent;
+}
