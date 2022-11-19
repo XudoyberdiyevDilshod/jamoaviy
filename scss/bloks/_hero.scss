@@ -1,6 +1,6 @@
 .hero{
     background-image: url("../../images/hero_bg.webp");
-    background-size: 1440px 650px;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -21,7 +21,7 @@
     width: 234px;
     height: 63px;
     bottom: 155px;
-    right: -210px;
+    right: -200px;
     content: '';
 }
 .hero__inner{
@@ -56,9 +56,10 @@
     background-repeat: no-repeat;
     background-size: 100%; 
     top: 50px; 
-    left: -215px;
-    width: 180px;
-    height: 20px;
+    left: -255px;
+    width: 100%;
+    max-width: 203px;
+    height: 15px;
     content: '';
 
 }

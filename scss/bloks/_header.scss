@@ -1,8 +1,15 @@
 .site-header{
+    position: fixed;
+    width: 100%;
+    left:0;
+    right: 0;
     padding: 22px 0px;
+    background:#fff;
+    z-index: 10;
 }
 .header__inner{
     @include position;
+
 }
 .nav__list{
     @include position;
@@ -18,6 +25,9 @@
     font-size: 15px;
     line-height: 25px;
     color: #939CAA;
+    &:active{
+        color: #FCB72B;
+    }
 }
 .btn{
     margin-left: auto;
@@ -28,5 +38,11 @@
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
-    border: transparent;
+    border: 2px solid transparent;
+    &:active{
+        background: transparent;
+        color: #FCB72B;
+
+        border: 2px solid #FCB72B;
+    }
 }

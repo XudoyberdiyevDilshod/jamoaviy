@@ -48,7 +48,13 @@ main {
 }
 
 .site-header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
   padding: 22px 0px;
+  background: #fff;
+  z-index: 10;
 }
 
 .header__inner {
@@ -76,6 +82,9 @@ main {
   line-height: 25px;
   color: #939CAA;
 }
+.nav__link:active {
+  color: #FCB72B;
+}
 
 .btn {
   margin-left: auto;
@@ -86,12 +95,17 @@ main {
   line-height: 25px;
   text-align: center;
   color: #FFFFFF;
-  border: transparent;
+  border: 2px solid transparent;
+}
+.btn:active {
+  background: transparent;
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
 }
 
 .hero {
   background-image: url("../../images/hero_bg.webp");
-  background-size: 1440px 650px;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -114,7 +128,7 @@ main {
   width: 234px;
   height: 63px;
   bottom: 155px;
-  right: -210px;
+  right: -200px;
   content: "";
 }
 
@@ -154,9 +168,10 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   top: 50px;
-  left: -215px;
-  width: 180px;
-  height: 20px;
+  left: -255px;
+  width: 100%;
+  max-width: 203px;
+  height: 15px;
   content: "";
 }
 
@@ -323,10 +338,12 @@ main {
 }
 
 .sity-aside {
+  margin-top: 200px;
   background-image: url("../../images/aside_bg.svg");
   background-repeat: no-repeat;
-  background-size: 1440px 300px;
-  background-position: 50% 50%;
+  background-size: 100%;
+  background-position: center;
+  margin: 0 auto;
 }
 
 .aside__inner {
@@ -345,6 +362,7 @@ main {
 }
 
 .aside__title {
+  margin: 0;
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
@@ -357,4 +375,50 @@ main {
   border: transparent;
   background: #E5ECF4;
   border-radius: 4px;
+}
+
+.site-footer {
+  background: #333A44;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  padding: 35px 0px;
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-left: 58px;
+}
+
+.footer__item + .footer__item {
+  margin-left: 58px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+.footer__link:active {
+  color: #FCB72B;
+}
+
+.network__apps {
+  margin-left: auto;
+}
+
+.network__link {
+  text-decoration: none;
+  margin-left: 24px;
+}
+.network__link:active {
+  background-color: transparent;
 }/*# sourceMappingURL=main.css.map */
