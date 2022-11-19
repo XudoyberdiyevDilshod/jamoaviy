@@ -1,19 +1,19 @@
-.riding{
+.payments{
     margin-top: 200px;
-    background-image: url("../../images/boyfriend_img.webp");
+    background-image: url("../../images/money_img.webp");
     background-repeat: no-repeat;
     background-size: 954px 445px;
-    background-position: calc(50% + 522px) calc(50% - 0px);
+    background-position: calc(50% + 600px) calc(50% - 0px);
 }
-.riding__inner{
+.payments__inner{
     position: relative;
     padding: 80px 0px;
 }
-.riding__content{
+.payments__content{
     width: 100%;
     max-width:450px ;
 }
-.riding__title{
+.payments__title{
     margin: 0;
     margin-bottom: 24px;
     font-weight: 700;
@@ -23,7 +23,7 @@
     color: #495567;
 
 }
-.riding__text{
+.payments__text{
     margin-bottom: 40px;
     padding: 0;
     font-weight: 400;

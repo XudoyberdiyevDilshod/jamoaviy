@@ -77,7 +77,7 @@ main {
   color: #939CAA;
 }
 
-.header__btn {
+.btn {
   margin-left: auto;
   padding: 14px 39px;
   background: #FCB72B;
@@ -160,17 +160,6 @@ main {
   content: "";
 }
 
-.hero__btn {
-  padding: 14px 39px;
-  background: #FCB72B;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 25px;
-  text-align: center;
-  color: #FFFFFF;
-  border: transparent;
-}
-
 .enjoy {
   margin-top: 160px;
 }
@@ -224,20 +213,20 @@ main {
 
 .riding {
   margin-top: 200px;
+  background-image: url("../../images/boyfriend_img.webp");
+  background-repeat: no-repeat;
+  background-size: 954px 445px;
+  background-position: calc(50% + 522px) calc(50% - 0px);
 }
 
 .riding__inner {
   position: relative;
   padding: 80px 0px;
-  background-image: url("../../images/boyfriend_img.webp");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: right -350px bottom;
 }
 
 .riding__content {
   width: 100%;
-  width: 450px;
+  max-width: 450px;
 }
 
 .riding__title {
@@ -256,17 +245,116 @@ main {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  /* or 167% */
   color: #939CAA;
 }
 
-.riding__btn {
-  padding: 14px 39px;
-  background: #FCB72B;
+.sity {
+  margin-top: 200px;
+  background-image: url("../../images/sity_img.webp");
+  background-repeat: no-repeat;
+  background-size: 995px 445px;
+  background-position: calc(50% - 605px) 50%;
+}
+
+.sity__inner {
+  position: relative;
+}
+
+.sity__content {
+  padding: 66px 0;
+  margin-left: auto;
+  width: 100%;
+  max-width: 450px;
+}
+
+.sity__title {
+  margin: 0;
+  margin-bottom: 24px;
   font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #495567;
+}
+
+.sity__text {
+  margin-bottom: 40px;
+  padding: 0;
+  font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  text-align: center;
-  color: #FFFFFF;
+  color: #939CAA;
+}
+
+.payments {
+  margin-top: 200px;
+  background-image: url("../../images/money_img.webp");
+  background-repeat: no-repeat;
+  background-size: 954px 445px;
+  background-position: calc(50% + 600px) calc(50% - 0px);
+}
+
+.payments__inner {
+  position: relative;
+  padding: 80px 0px;
+}
+
+.payments__content {
+  width: 100%;
+  max-width: 450px;
+}
+
+.payments__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.payments__text {
+  margin-bottom: 40px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.sity-aside {
+  background-image: url("../../images/aside_bg.svg");
+  background-repeat: no-repeat;
+  background-size: 1440px 300px;
+  background-position: 50% 50%;
+}
+
+.aside__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 102px 0px;
+}
+
+.aside__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 415px;
+}
+
+.aside__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+}
+
+.button {
+  padding: 0;
+  line-height: 18px;
   border: transparent;
+  background: #E5ECF4;
+  border-radius: 4px;
 }/*# sourceMappingURL=main.css.map */
