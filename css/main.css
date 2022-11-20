@@ -47,6 +47,17 @@ main {
   padding: 0 20px;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .site-header {
   position: fixed;
   width: 100%;
@@ -351,6 +362,62 @@ main {
   font-size: 15px;
   line-height: 25px;
   color: #939CAA;
+}
+
+.mobility {
+  padding: 130px 0 120px;
+}
+
+.mobility-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.mobility__item {
+  background-repeat: no-repeat;
+  background-size: 445px 445px;
+}
+
+.mobility__item:nth-child(1) {
+  background-image: url("../../images/mobility.webp");
+  background-position: top right;
+}
+
+.mobility__item:nth-child(2) {
+  background-image: url("../../images/living.webp");
+}
+
+.mobility__content {
+  padding: 125px 0;
+  width: 100%;
+  max-width: 445px;
+}
+
+.mobility__content--right {
+  margin-right: auto;
+}
+
+.mobility__content--left {
+  margin-left: auto;
+}
+
+.mobility-list__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.mobility-list__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
 }
 
 .sity-aside {
