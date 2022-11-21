@@ -610,13 +610,14 @@ main {
   font-size: 48px;
   line-height: 48px;
   letter-spacing: -2.14286px;
+  color: #ffffff;
 }
 
 .button {
   padding: 0;
   line-height: 18px;
   border: transparent;
-  background: #E5ECF4;
+  background: #e5ecf4;
   border-radius: 4px;
 }
 
