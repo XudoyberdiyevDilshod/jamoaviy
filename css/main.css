@@ -506,6 +506,80 @@ main {
   color: #939caa;
 }
 
+.faq {
+  padding-bottom: 160px;
+}
+
+.faq__title {
+  margin: 0;
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.faq__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.faq__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 90px;
+}
+
+.faq-list__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: #495567;
+}
+
+.faq__content {
+  width: 100%;
+  max-width: 730px;
+}
+
+.faq__details {
+  padding: 32px 40px;
+  overflow: hidden;
+  margin: 0 auto 16px;
+  background-color: #f2f5f9;
+  transition: all 0.4s ease;
+}
+
+.faq__summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  list-style-type: none;
+}
+
+.faq__details--title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.faq__details--text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #495567;
+}
+
 .sity-aside {
   margin-top: 200px;
   background-image: url("../../images/aside_bg.svg");
