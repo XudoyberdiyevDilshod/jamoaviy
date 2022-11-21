@@ -37,6 +37,7 @@ img {
 }
 
 main {
+  padding-top: 106px;
   flex-grow: 1;
 }
 
@@ -187,7 +188,7 @@ main {
 }
 
 .about-hero {
-  padding: 158px 0 62px 165px;
+  padding: 62px 0 72px 165px;
   background-image: url("../../images/about-bgi.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -200,6 +201,13 @@ main {
   line-height: 56px;
   letter-spacing: -2.5px;
   color: #ffffff;
+}
+
+.careers-hero {
+  height: 200px;
+  background-image: url("../../images/careers-hero-bgi.webp");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .enjoy {
