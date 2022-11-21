@@ -366,22 +366,24 @@ main {
 
 .mobility {
   padding: 130px 0 120px;
-  background-image: url("../../images/mobility.webp"), url("../../images/living-oval.webp");
+  background-image: url("../../images/m-left.webp"), url("../../images/mobility.webp"), url("../../images/living-oval.webp");
   background-repeat: no-repeat;
-  background-size: auto, 100px 500px;
-  background-position: calc(50% + 450px) calc(50% - 250px), calc(50% - 650px) calc(50% + 226px);
+  background-size: auto, auto, 100px 500px;
+  background-position: calc(50% + 370px) calc(50% - 150px), calc(50% + 450px) calc(50% - 250px), calc(50% - 650px) calc(50% + 226px);
 }
 
 .mobility-list {
+  position: relative;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 .mobility__item:nth-child(2) {
-  background-image: url("../../images/living.webp");
+  background-image: url("../../images/m-right.webp"), url("../../images/living.webp");
   background-repeat: no-repeat;
-  background-size: 445px 445px;
+  background-size: auto, 445px 445px;
+  background-position: calc(50% - 450px) calc(50% - 150px), calc(50% - 330px);
 }
 
 .mobility__content {
