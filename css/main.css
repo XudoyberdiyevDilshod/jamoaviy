@@ -397,6 +397,21 @@ main {
   color: #FFFFFF;
 }
 
+.location__map {
+  margin-top: 100px;
+}
+
+.location__map {
+  background-image: url("../../images/location_img.webp");
+  background-repeat: no-repeat;
+  background-size: 100px 500px;
+  background-position: 50% 50%;
+}
+
+.location__link {
+  text-decoration: none;
+}
+
 .site-footer {
   background: #333A44;
 }
