@@ -12,12 +12,14 @@
 
 .enjoy__list {
     @include position;
-    justify-content: space-between;
+    gap: 30px;
     @include unsed-list;
 }
 
 .enjoy__item {
     position: relative;
+    width: 100%;
+    max-width: 350px;
     padding-top: 136px;
 }
 
@@ -44,4 +46,41 @@
     font-size: 15px;
     line-height: 25px;
     color: #939CAA;
+}
+@media only screen and(max-width:768px) {
+    // .enjoy__inner{
+    //     display: block;
+    // }
+    .enjoy{
+        margin-top: 100px;
+    }
+    .enjoy__line{
+        display: none;
+    }
+    .enjoy__list{
+        display: block;
+        margin-left: 150px;
+        width: 400px;
+    }
+    .enjoy__item{
+        padding: 0;
+    }
+    .enjoy__item::before{
+        left: -125px;
+    }
+}
+@media only screen and(max-width:576px) {
+    .enjoy__item{
+        margin: 0 auto;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .enjoy__list{
+        margin: 0 auto;
+    }
+    .enjoy__item::before{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
 }
