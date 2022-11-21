@@ -366,6 +366,10 @@ main {
 
 .mobility {
   padding: 130px 0 120px;
+  background-image: url("../../images/mobility.webp"), url("../../images/living-oval.webp");
+  background-repeat: no-repeat;
+  background-size: auto, 100px 500px;
+  background-position: calc(50% + 450px) calc(50% - 250px), calc(50% - 650px) calc(50% + 226px);
 }
 
 .mobility-list {
@@ -374,18 +378,10 @@ main {
   list-style-type: none;
 }
 
-.mobility__item {
-  background-repeat: no-repeat;
-  background-size: 445px 445px;
-}
-
-.mobility__item:nth-child(1) {
-  background-image: url("../../images/mobility.webp");
-  background-position: top right;
-}
-
 .mobility__item:nth-child(2) {
   background-image: url("../../images/living.webp");
+  background-repeat: no-repeat;
+  background-size: 445px 445px;
 }
 
 .mobility__content {
