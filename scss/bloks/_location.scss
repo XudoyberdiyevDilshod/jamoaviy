@@ -1,0 +1,59 @@
+.location {
+    margin-top: 100px;
+    background-image: url("../../images/location_bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.location__inner {
+    padding: 72px 0;
+    margin: 100px 0px;
+}
+
+.location__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.location__map {
+    position: relative;
+}
+
+.location__map::before {
+    position: absolute;
+    background-image: url("../../images/location_img.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1110px;
+    height: 545px;
+    background-position: calc(50%) calc(50%);
+    content: '';
+}
+
+.location__link {
+    text-decoration: none;
+}
+
+.listed__inner {
+    @include position;
+    justify-content: space-between;
+    margin-top: 600px;
+    margin-bottom: 50px;
+}
+
+.listed__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+
+.listed__text {
+    width: 100%;
+    max-width: 445px;
+}

@@ -1,37 +1,45 @@
-.site-footer{
+.site-footer {
     background: #333A44;
 }
-.footer__inner{
+
+.footer__inner {
 
     @include position;
     padding: 35px 0px;
 
 }
-.footer__list{
+
+.footer__list {
     @include position;
     @include unsed-list;
     margin-left: 58px;
 }
-.footer__item+ .footer__item{
-    margin-left:58px ;
+
+.footer__item+.footer__item {
+    margin-left: 58px;
 }
-.footer__link{
+
+.footer__link {
     text-decoration: none;
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
     color: #939CAA;
-    &:active{
+
+    &:active {
         color: #FCB72B;
     }
 }
-.network__apps{
+
+.network__apps {
     margin-left: auto;
 }
-.network__link{
+
+.network__link {
     text-decoration: none;
     margin-left: 24px;
-    &:active{
-        background-color: transparent;  
+
+    &:active {
+        background-color: transparent;
     }
 }
