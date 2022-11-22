@@ -41,9 +41,7 @@
 
 @media only screen and (max-width: 768px) {
   .mission {
-    padding: 653px 0 120px;
-    background-image: url("../../images/mission-bgi.webp");
-    background-repeat: no-repeat;
+    padding-top: 653px;
     background-position: calc(50% + 15px) calc(50% - 190px);
   }
 
@@ -63,4 +61,24 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .mission {
+    padding-top: 440px;
+    background-image: url("../../images/mission-bgi-mobile.webp");
+    background-position: calc(50%) calc(50% - 220px);
+  }
+
+  .mission__content {
+    max-width: 390px;
+  }
+
+  .mission__title {
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.42857px;
+  }
+
+  .mission__text {
+    margin-bottom: 32px;
+  }
 }

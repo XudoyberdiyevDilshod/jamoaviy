@@ -342,6 +342,20 @@ main {
     display: block;
   }
 }
+@media only screen and (max-width: 576px) {
+  .careers-hero {
+    height: 160px;
+    padding: 60px 0;
+  }
+  .careers-hero__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+    color: #ffffff;
+  }
+}
 .enjoy {
   margin-top: 160px;
 }
@@ -911,9 +925,7 @@ main {
 
 @media only screen and (max-width: 768px) {
   .mission {
-    padding: 653px 0 120px;
-    background-image: url("../../images/mission-bgi.webp");
-    background-repeat: no-repeat;
+    padding-top: 653px;
     background-position: calc(50% + 15px) calc(50% - 190px);
   }
   .mission__inner {
@@ -926,6 +938,25 @@ main {
   }
   .mission__title {
     margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .mission {
+    padding-top: 440px;
+    background-image: url("../../images/mission-bgi-mobile.webp");
+    background-position: 50% calc(50% - 220px);
+  }
+  .mission__content {
+    max-width: 390px;
+  }
+  .mission__title {
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.42857px;
+  }
+  .mission__text {
+    margin-bottom: 32px;
   }
 }
 .specialist {
@@ -975,6 +1006,31 @@ main {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 576px) {
+  .specialist {
+    padding-bottom: 120px;
+  }
+  .specialist__list {
+    gap: 16px;
+  }
+  .specialist__item {
+    padding: 36px 32px 32px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .specialist__title {
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.803571px;
+  }
+  .specialist__link {
+    width: 247px;
+    margin: 0;
+    padding: 14px 61px;
+  }
+}
 .sity-aside {
   margin-top: 200px;
   background-image: url("../../images/aside_bg.svg");

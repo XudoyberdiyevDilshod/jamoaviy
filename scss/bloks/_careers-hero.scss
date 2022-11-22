@@ -25,4 +25,17 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .careers-hero {
+    height: 160px;
+    padding: 60px 0;
+  }
+
+  .careers-hero__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+    color: #ffffff;
+  }
 }
