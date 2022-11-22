@@ -38,3 +38,29 @@
   padding: 14px 48px 14px 49px;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .mission {
+    padding: 653px 0 120px;
+    background-image: url("../../images/mission-bgi.webp");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 15px) calc(50% - 190px);
+  }
+
+  .mission__inner {
+    padding: 0;
+  }
+
+  .mission__content {
+    margin: 0 auto;
+    max-width: 573px;
+    text-align: center;
+  }
+
+  .mission__title {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+}

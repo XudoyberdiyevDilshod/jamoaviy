@@ -324,6 +324,24 @@ main {
   background-position: center;
 }
 
+.careers-hero__title {
+  display: none;
+  margin: 0;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .careers-hero {
+    padding: 72px 0 72px 58px;
+  }
+  .careers-hero__title {
+    display: block;
+  }
+}
 .enjoy {
   margin-top: 160px;
 }
@@ -891,6 +909,25 @@ main {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .mission {
+    padding: 653px 0 120px;
+    background-image: url("../../images/mission-bgi.webp");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 15px) calc(50% - 190px);
+  }
+  .mission__inner {
+    padding: 0;
+  }
+  .mission__content {
+    margin: 0 auto;
+    max-width: 573px;
+    text-align: center;
+  }
+  .mission__title {
+    margin-bottom: 40px;
+  }
+}
 .specialist {
   padding-bottom: 160px;
 }

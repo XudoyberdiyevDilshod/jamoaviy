@@ -1,6 +1,28 @@
 .careers-hero {
-    height: 200px;
-    background-image: url("../../images/careers-hero-bgi.webp");
-    background-repeat: no-repeat;
-    background-position: center;
+  height: 200px;
+  background-image: url("../../images/careers-hero-bgi.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.careers-hero__title {
+  display: none;
+  margin: 0;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .careers-hero {
+    padding: 72px 0 72px 58px;
+  }
+  .careers-hero__title {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 576px) {
 }
