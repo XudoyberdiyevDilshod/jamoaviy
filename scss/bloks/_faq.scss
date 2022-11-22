@@ -55,7 +55,7 @@
 }
 
 .faq__details:active {
-  background-color: #FFF4DF;
+  background-color: #fff4df;
 }
 
 .faq__details--title {
@@ -74,4 +74,19 @@
   font-size: 15px;
   line-height: 25px;
   color: #495567;
+}
+
+@media only screen and (max-width: 768px) {
+  .faq {
+    padding-bottom: 120px;
+  }
+
+  .faq__item {
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
 }

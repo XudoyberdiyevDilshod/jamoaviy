@@ -291,7 +291,7 @@ main {
 }
 .about-hero {
   padding: 62px 0 72px 165px;
-  background-image: url("../../images/about-bgi.webp");
+  background-image: url("../images/about-bgi.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -512,7 +512,7 @@ main {
 
 .mobility {
   padding: 130px 0 120px;
-  background-image: url("../../images/m-left.webp"), url("../../images/mobility.webp"), url("../../images/living-oval.webp");
+  background-image: url("../images/m-left.webp"), url("../images/mobility.webp"), url("../images/living-oval.webp");
   background-repeat: no-repeat;
   background-size: auto, auto, 100px 500px;
   background-position: calc(50% + 370px) calc(50% - 150px), calc(50% + 450px) calc(50% - 250px), calc(50% - 650px) calc(50% + 226px);
@@ -526,7 +526,7 @@ main {
 }
 
 .mobility__item:nth-child(2) {
-  background-image: url("../../images/m-right.webp"), url("../../images/living.webp");
+  background-image: url("../images/m-right.webp"), url("../images/living.webp");
   background-repeat: no-repeat;
   background-size: auto, 445px 445px;
   background-position: calc(50% - 450px) calc(50% - 150px), calc(50% - 330px);
@@ -564,6 +564,26 @@ main {
   color: #939caa;
 }
 
+@media only screen and (max-width: 768px) {
+  .mobility {
+    padding: 645px 0 120px;
+    background-position: calc(50% + 24px) calc(50% - 490px), calc(50% + 80px) calc(50% - 620px), calc(50% - 334px) calc(50% + 245px);
+  }
+  .mobility__content {
+    margin: 0 auto 120px;
+    padding: 0;
+    text-align: center;
+    max-width: 574px;
+  }
+  .mobility__content--left {
+    margin: 0 auto;
+  }
+  .mobility__item:nth-child(2) {
+    padding-top: 621px;
+    background-image: url("../images/m-right.webp"), url("../images/living.webp");
+    background-position: calc(50% - 190px) calc(50% - 304px), 50% calc(50% - 160px);
+  }
+}
 .values {
   padding: 120px 0;
 }
@@ -652,6 +672,24 @@ main {
   color: #939caa;
 }
 
+@media only screen and (max-width: 768px) {
+  .values {
+    padding: 0;
+    padding-bottom: 120px;
+  }
+  .values-list {
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 55px;
+  }
+  .values__item {
+    max-width: 457px;
+  }
+  .values-list__oval {
+    top: 200px;
+    left: 180px;
+  }
+}
 .faq {
   padding-bottom: 160px;
 }
@@ -709,7 +747,7 @@ main {
 }
 
 .faq__details:active {
-  background-color: #FFF4DF;
+  background-color: #fff4df;
 }
 
 .faq__details--title {
@@ -730,6 +768,16 @@ main {
   color: #495567;
 }
 
+@media only screen and (max-width: 768px) {
+  .faq {
+    padding-bottom: 120px;
+  }
+  .faq__item {
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
 .mission {
   padding: 186px 0 120px;
   background-image: url("../../images/mission-bgi.webp");

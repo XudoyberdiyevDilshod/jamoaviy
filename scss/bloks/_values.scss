@@ -83,3 +83,28 @@
   text-align: center;
   color: #939caa;
 }
+
+@media only screen and (max-width: 768px) {
+  .values {
+    padding: 0;
+    padding-bottom: 120px;
+  }
+
+  .values-list {
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 55px;
+  }
+
+  .values__item {
+    max-width: 457px;
+  }
+
+  .values-list__oval {
+    top: 200px;
+    left: 180px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+}
