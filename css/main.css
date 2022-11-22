@@ -767,38 +767,6 @@ main {
   border-radius: 4px;
 }
 
-.aside__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 102px;
-  padding-bottom: 50px;
-}
-
-.aside__content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 415px;
-}
-
-.aside__title {
-  margin: 0;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
-  letter-spacing: -2.14286px;
-}
-
-.button {
-  padding: 0;
-  line-height: 18px;
-  border: transparent;
-  background: #E5ECF4;
-  border-radius: 4px;
-}
-
 .location {
   margin-top: 100px;
   background-image: url("../../images/location_bg.png");
