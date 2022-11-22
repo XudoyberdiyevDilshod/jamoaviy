@@ -1243,6 +1243,7 @@ main {
   position: absolute;
   background-image: url("../../images/location_img.webp");
   background-repeat: no-repeat;
+  margin: 50px 0px;
   width: 100%;
   max-width: 1110px;
   height: 545px;
@@ -1258,7 +1259,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 500px;
+  margin-top: 550px;
   margin-bottom: 50px;
 }
 
