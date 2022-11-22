@@ -5,7 +5,7 @@
 .enjoy__line {
     position: relative;
     display: block;
-    border: 10px solid #E5ECF4;
+    border: 8px solid #E5ECF4;
     top: 60px;
     left: -165px
 }
@@ -46,6 +46,9 @@
     font-size: 15px;
     line-height: 25px;
     color: #939CAA;
+}
+.download__link{
+    margin-left: 15px;
 }
 @media only screen and(max-width:768px) {
     .enjoy{
