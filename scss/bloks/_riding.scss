@@ -31,3 +31,37 @@
     line-height: 25px;
     color: #939CAA;
 }
+@media only screen and(max-width:768px) {
+    .riding__inner{
+        padding-top: 500px;
+    }
+    .riding{
+        background-position: calc(50% + 155px) calc(50% - 200px);
+    }
+    .riding__content{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .riding__title{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .riding__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media only screen and(max-width:576px) {
+    .riding{
+        background-size: 700px 400px;
+    }
+    .riding__title{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .riding__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

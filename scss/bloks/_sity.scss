@@ -31,3 +31,38 @@
     line-height: 25px;
     color: #939CAA;
 }
+@media only screen and(max-width:768px) {
+    .sity{
+        background-position: calc(50% - 200px) calc(50%  - 30px);
+    }
+    .sity__content{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sity__title{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .sity__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media only screen and(max-width:576px) {
+    .sity{
+        margin-top: 0px;
+        background-position:calc(50% - 100px) calc(50% - 100px);
+    }
+    .sity__title{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .sity__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .sity__content{
+        padding-top: 650px;
+    }
+}
