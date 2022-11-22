@@ -135,9 +135,8 @@ main {
 }
 .hero {
   background-image: url("../../images/hero_bg.webp");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
 
 .hero__inner::before {
@@ -875,7 +874,7 @@ main {
   margin-top: 200px;
   background-image: url("../../images/aside_bg.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-position: center;
 }
 

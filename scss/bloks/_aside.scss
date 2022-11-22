@@ -2,20 +2,23 @@
   margin-top: 200px;
   background-image: url("../../images/aside_bg.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-position: center;
 }
+
 .aside__inner {
   @include position;
   justify-content: space-between;
   padding: 100px 0px 120px;
 }
+
 .aside__content {
   @include position;
   justify-content: space-between;
   width: 100%;
   max-width: 415px;
 }
+
 .aside__title {
   margin: 0;
   font-weight: 700;
@@ -24,6 +27,7 @@
   letter-spacing: -2.14286px;
   color: #ffffff;
 }
+
 .button {
   padding: 0;
   line-height: 18px;
@@ -31,30 +35,32 @@
   background: #e5ecf4;
   border-radius: 4px;
 }
+
 @media only screen and(max-width:768px) {
-  .sity-aside{
+  .sity-aside {
     margin-top: 0;
     padding: 0;
     background-image: url("../../images/aside_bgtablet.png");
     background-size: 100%;
   }
-  .aside__inner{
+
+  .aside__inner {
     display: block;
     margin: 0 auto;
     padding: 40px 0px 30px 0px;
     width: 457px;
     text-align: center;
   }
-  .download__app{
-    padding-top: 25px ;
+
+  .download__app {
+    padding-top: 25px;
   }
 }
+
 @media only screen and(max-width:606px) {
-  .aside__inner{
-  padding: 30px 0px;
-}
-  .aside__content{
-
+  .aside__inner {
+    padding: 30px 0px;
   }
-}
 
+  .aside__content {}
+}
