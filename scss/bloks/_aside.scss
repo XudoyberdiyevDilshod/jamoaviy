@@ -33,36 +33,48 @@
 }
 .download__app{
   @include position;
-
 }
-.download__link+ .download__link{
+.button+ .button{
+  padding: 0px;
   margin-left: 15px;
 }
 
-// @media only screen and(max-width:768px) {
-//   .sity-aside {
-//     margin-top: 0;
-//     padding: 0;
-//     background-image: url("../../images/aside_bgtablet.png");
-//     background-size: 100%;
-//   }
+@media only screen and(max-width:768px) {
+  .sity-aside {
+    margin-top: 0;
+    padding: 0;
+    background-image: url("../../images/aside_bgtablet.png");
+    background-size: 100%;
+  }
+  .aside__inner {
+    display: block;
+    width: 457px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .aside__content{
+    text-align: center;
+  }
+  .aside__title{
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .download__app{
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+@media only screen and(max-width:606px) {
+  .sity-aside{
+    background-image: url("../../images/mobile_aside.svg");
 
-//   .aside__inner {
-//     display: block;
-//     margin: 0 auto;
-//     width: 457px;
-//     text-align: center;
-//   }
+  }
+  .aside__title{
+    font-size: 32px;
+  line-height: 32px;
+  }
 
-//   .download__app {
-//     padding-top: 25px;
-//   }
-// }
-
-// @media only screen and(max-width:606px) {
-//   .aside__title{
-//     font-size: 32px;
-//   line-height: 32px;
-//   }
-
-// }
+}

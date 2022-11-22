@@ -1175,12 +1175,49 @@ main {
   align-items: center;
 }
 
-.download__link + .download__link {
+.button + .button {
+  padding: 0px;
   margin-left: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+  .sity-aside {
+    margin-top: 0;
+    padding: 0;
+    background-image: url("../../images/aside_bgtablet.png");
+    background-size: 100%;
+  }
+  .aside__inner {
+    display: block;
+    width: 457px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .aside__content {
+    text-align: center;
+  }
+  .aside__title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .download__app {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 606px) {
+  .sity-aside {
+    background-image: url("../../images/mobile_aside.svg");
+  }
+  .aside__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
 .location {
-  margin-top: 100px;
   background-image: url("../../images/location_bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1188,7 +1225,6 @@ main {
 
 .location__inner {
   padding: 72px 0;
-  margin: 100px 0px;
 }
 
 .location__title {
@@ -1222,7 +1258,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 600px;
+  margin-top: 500px;
   margin-bottom: 50px;
 }
 
@@ -1239,6 +1275,27 @@ main {
   max-width: 445px;
 }
 
+@media only screen and (max-width: 768px) {
+  .location__map::before {
+    background-image: url("../../images/location_table.svg");
+    background-position: center;
+  }
+  .listed__inner {
+    display: block;
+    text-align: center;
+  }
+  .listed__text {
+    display: block;
+    margin-left: 20%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .location__map::before {
+    background-image: url("../../images/location_mobile.png");
+    background-size: 100%;
+  }
+}
 .site-footer {
   background: #333A44;
 }
