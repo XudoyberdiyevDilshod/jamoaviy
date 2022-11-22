@@ -1,37 +1,34 @@
 .sity-aside {
-    margin-top: 200px;
-    background-image: url("../../images/aside_bg.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+  margin-top: 200px;
+  background-image: url("../../images/aside_bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin: 0 auto;
 }
-
 .aside__inner {
-    @include position;
-    justify-content: space-between;
-    padding-top: 102px;
-    padding-bottom: 50px;
+  @include position;
+  justify-content: space-between;
+  padding: 102px 0px;
 }
-
 .aside__content {
-    @include position;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 415px;
+  @include position;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 415px;
 }
-
 .aside__title {
-    margin: 0;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 48px;
-    letter-spacing: -2.14286px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #ffffff;
 }
-
 .button {
-    padding: 0;
-    line-height: 18px;
-    border: transparent;
-    background: #E5ECF4;
-    border-radius: 4px;
+  padding: 0;
+  line-height: 18px;
+  border: transparent;
+  background: #e5ecf4;
+  border-radius: 4px;
 }
