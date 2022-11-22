@@ -705,8 +705,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 24px;
   list-style-type: none;
+}
+
+.faq__details:active {
+  background-color: #FFF4DF;
 }
 
 .faq__details--title {
@@ -720,6 +723,7 @@ main {
 
 .faq__details--text {
   margin: 0;
+  margin-top: 24px;
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
