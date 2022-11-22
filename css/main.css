@@ -39,7 +39,6 @@ img {
 }
 
 main {
-  padding-top: 106px;
   flex-grow: 1;
 }
 
@@ -724,6 +723,47 @@ main {
   font-size: 15px;
   line-height: 25px;
   color: #495567;
+}
+
+.mission {
+  padding: 186px 0 120px;
+  background-image: url("../../images/mission-bgi.webp");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 400px) 50%;
+}
+
+.mission__inner {
+  padding: 66px 0;
+}
+
+.mission__content {
+  width: 100%;
+  max-width: 445px;
+}
+
+.mission__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.mission__text {
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.mission__link {
+  display: inline-block;
+  padding: 14px 48px 14px 49px;
+  text-decoration: none;
 }
 
 .sity-aside {
