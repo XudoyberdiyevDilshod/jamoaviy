@@ -89,4 +89,28 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .faq__item {
+  }
+
+  .faq__title {
+    margin-bottom: 48px;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.42857px;
+    color: #495567;
+  }
+
+  .faq-list__title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+
+  .faq__details--title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.803571px;
+  }
 }

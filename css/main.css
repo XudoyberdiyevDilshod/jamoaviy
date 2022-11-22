@@ -305,6 +305,18 @@ main {
   color: #ffffff;
 }
 
+@media only screen and (max-width: 576px) {
+  .about-hero {
+    padding: 60px 32px;
+    background-image: url("../images/about-hero-mobile.webp");
+  }
+  .about-hero__title {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+  }
+}
 .careers-hero {
   height: 200px;
   background-image: url("../../images/careers-hero-bgi.webp");
@@ -584,6 +596,29 @@ main {
     background-position: calc(50% - 190px) calc(50% - 304px), 50% calc(50% - 160px);
   }
 }
+@media only screen and (max-width: 576px) {
+  .mobility {
+    padding: 439px 0 120px;
+    background-image: url("../images/m-left.webp"), url("../../images/mobility-mobile.webp");
+    background-position: calc(50% + 210px) calc(50% - 510px), 50% calc(50% - 564px);
+  }
+  .mobility__item:nth-child(2) {
+    padding-top: 487px;
+    background-image: url("../images/m-right.webp"), url("../../images/living-mobile.webp");
+    background-position: calc(50% - 60px) calc(50% - 280px), 50% calc(50% - 197px);
+    background-size: auto, 311px 311px;
+  }
+  .mobility__content {
+    max-width: 340px;
+  }
+  .mobility-list__title {
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.42857px;
+    color: #495567;
+  }
+}
 .values {
   padding: 120px 0;
 }
@@ -686,8 +721,24 @@ main {
     max-width: 457px;
   }
   .values-list__oval {
-    top: 200px;
     left: 180px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .values {
+    padding-bottom: 145px;
+  }
+  .values__item {
+    max-width: 311px;
+  }
+  .values-list__oval {
+    left: 110px;
+  }
+  .values__item::before {
+    margin-bottom: 64px;
+  }
+  .values__title {
+    margin-bottom: 64px;
   }
 }
 .faq {
@@ -776,6 +827,27 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 32px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .faq__title {
+    margin-bottom: 48px;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.42857px;
+    color: #495567;
+  }
+  .faq-list__title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+  .faq__details--title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.803571px;
   }
 }
 .mission {

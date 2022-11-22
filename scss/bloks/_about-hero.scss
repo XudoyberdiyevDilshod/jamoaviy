@@ -15,5 +15,15 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .about-hero {
+    padding: 60px 32px;
+    background-image: url("../images/about-hero-mobile.webp");
+  }
 
+  .about-hero__title {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+  }
 }

@@ -101,10 +101,28 @@
   }
 
   .values-list__oval {
-    top: 200px;
     left: 180px;
   }
 }
 
 @media only screen and (max-width: 576px) {
+  .values {
+    padding-bottom: 145px;
+  }
+
+  .values__item {
+    max-width: 311px;
+  }
+
+  .values-list__oval {
+    left: 110px;
+  }
+
+  .values__item::before {
+    margin-bottom: 64px;
+  }
+
+  .values__title {
+    margin-bottom: 64px;
+  }
 }
