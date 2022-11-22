@@ -311,7 +311,6 @@ main {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .enjoy {
   margin-top: 160px;
 }
@@ -773,14 +772,14 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  margin: 0 auto;
 }
 
 .aside__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 102px 0px;
+  padding-top: 102px;
+  padding-bottom: 50px;
 }
 
 .aside__content {
