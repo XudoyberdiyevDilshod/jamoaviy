@@ -318,7 +318,7 @@ main {
 }
 .careers-hero {
   height: 200px;
-  background-image: url("../../images/careers-hero-bgi.webp");
+  background-image: url("../images/careers-hero-bgi.webp");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -738,12 +738,12 @@ main {
 @media only screen and (max-width: 576px) {
   .mobility {
     padding: 439px 0 120px;
-    background-image: url("../images/m-left.webp"), url("../../images/mobility-mobile.webp");
+    background-image: url("../images/m-left.webp"), url("../images/mobility-mobile.webp");
     background-position: calc(50% + 210px) calc(50% - 510px), 50% calc(50% - 564px);
   }
   .mobility__item:nth-child(2) {
     padding-top: 487px;
-    background-image: url("../images/m-right.webp"), url("../../images/living-mobile.webp");
+    background-image: url("../images/m-right.webp"), url("../images/living-mobile.webp");
     background-position: calc(50% - 60px) calc(50% - 280px), 50% calc(50% - 197px);
     background-size: auto, 311px 311px;
   }
@@ -799,15 +799,15 @@ main {
 }
 
 .values__item:nth-child(1)::before {
-  background-image: url("../../images/values-01.webp");
+  background-image: url("../images/values-01.webp");
 }
 
 .values__item:nth-child(2)::before {
-  background-image: url("../../images/values-02.webp");
+  background-image: url("../images/values-02.webp");
 }
 
 .values__item:nth-child(3)::before {
-  background-image: url("../../images/values-03.webp");
+  background-image: url("../images/values-03.webp");
 }
 
 .values-list__oval {
@@ -991,7 +991,7 @@ main {
 }
 .mission {
   padding: 186px 0 120px;
-  background-image: url("../../images/mission-bgi.webp");
+  background-image: url("../images/mission-bgi.webp");
   background-repeat: no-repeat;
   background-position: calc(50% + 400px) 50%;
 }
@@ -1050,7 +1050,7 @@ main {
 @media only screen and (max-width: 576px) {
   .mission {
     padding-top: 440px;
-    background-image: url("../../images/mission-bgi-mobile.webp");
+    background-image: url("../images/mission-bgi-mobile.webp");
     background-position: 50% calc(50% - 220px);
   }
   .mission__content {

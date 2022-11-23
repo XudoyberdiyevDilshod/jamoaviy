@@ -1,6 +1,6 @@
 .mission {
   padding: 186px 0 120px;
-  background-image: url("../../images/mission-bgi.webp");
+  background-image: url("../images/mission-bgi.webp");
   background-repeat: no-repeat;
   background-position: calc(50% + 400px) calc(50%);
 }
@@ -63,7 +63,7 @@
 @media only screen and (max-width: 576px) {
   .mission {
     padding-top: 440px;
-    background-image: url("../../images/mission-bgi-mobile.webp");
+    background-image: url("../images/mission-bgi-mobile.webp");
     background-position: calc(50%) calc(50% - 220px);
   }
 
